@@ -10,7 +10,7 @@ from yandex_maps import http
 
 STATIC_MAPS_URL = 'http://static-maps.yandex.ru/1.x/?'
 HOSTED_MAPS_URL = 'http://maps.yandex.ru/?'
-GEOCODE_URL = 'http://geocode-maps.yandex.ru/1.x/?'
+GEOCODE_URL = 'https://geocode-maps.yandex.ru/1.x/?'
 
 def _format_point(longitude, latitude):
     return '%0.7f,%0.7f' % (float(longitude), float(latitude),)
